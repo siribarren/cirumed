@@ -31,11 +31,11 @@ export function Analytics() {
   ];
 
   const productDistribution = [
-    { name: "Botox", value: 342, color: "#3B82F6" },
-    { name: "Ácido Hialurónico", value: 287, color: "#8B5CF6" },
-    { name: "Relleno Dérmico", value: 198, color: "#10B981" },
-    { name: "Mesoterapia", value: 156, color: "#F59E0B" },
-    { name: "Otros", value: 124, color: "#6B7280" },
+    { name: "Botox", value: 342, color: "#457DEB" },
+    { name: "Ácido Hialurónico", value: 287, color: "#236092" },
+    { name: "Relleno Dérmico", value: 198, color: "#38B82C" },
+    { name: "Mesoterapia", value: 156, color: "#EBA53D" },
+    { name: "Otros", value: 124, color: "#666666" },
   ];
 
   const timeAnalysis = [
@@ -175,15 +175,15 @@ export function Analytics() {
                   <Tooltip
                     contentStyle={{
                       backgroundColor: "#FFF",
-                      border: "1px solid #E2E8F0",
+                      border: "1px solid #DEE2E6",
                       borderRadius: "8px",
                       fontSize: "12px"
                     }}
                   />
                   <Legend wrapperStyle={{ fontSize: "12px" }} />
-                  <Bar dataKey="leads" fill="#3B82F6" name="Leads Ingresados" radius={[4, 4, 0, 0]} />
-                  <Bar dataKey="calificados" fill="#8B5CF6" name="Calificados IA" radius={[4, 4, 0, 0]} />
-                  <Bar dataKey="cerrados" fill="#10B981" name="Cerrados" radius={[4, 4, 0, 0]} />
+                  <Bar dataKey="leads" fill="#457DEB" name="Leads Ingresados" radius={[4, 4, 0, 0]} />
+                  <Bar dataKey="calificados" fill="#236092" name="Calificados IA" radius={[4, 4, 0, 0]} />
+                  <Bar dataKey="cerrados" fill="#38B82C" name="Cerrados" radius={[4, 4, 0, 0]} />
                 </BarChart>
               </ResponsiveContainer>
             </CardContent>
@@ -206,14 +206,14 @@ export function Analytics() {
                   <Tooltip
                     contentStyle={{
                       backgroundColor: "#FFF",
-                      border: "1px solid #E2E8F0",
+                      border: "1px solid #DEE2E6",
                       borderRadius: "8px",
                       fontSize: "12px"
                     }}
                   />
                   <Legend wrapperStyle={{ fontSize: "12px" }} />
-                  <Line type="monotone" dataKey="precision" stroke="#3B82F6" strokeWidth={2} name="Precisión %" />
-                  <Line type="monotone" dataKey="autoResueltas" stroke="#10B981" strokeWidth={2} name="Auto-resueltas %" />
+                  <Line type="monotone" dataKey="precision" stroke="#457DEB" strokeWidth={2} name="Precisión %" />
+                  <Line type="monotone" dataKey="autoResueltas" stroke="#38B82C" strokeWidth={2} name="Auto-resueltas %" />
                 </LineChart>
               </ResponsiveContainer>
             </CardContent>
@@ -264,14 +264,14 @@ export function Analytics() {
                   <Tooltip
                     contentStyle={{
                       backgroundColor: "#FFF",
-                      border: "1px solid #E2E8F0",
+                      border: "1px solid #DEE2E6",
                       borderRadius: "8px",
                       fontSize: "12px"
                     }}
                   />
                   <Legend wrapperStyle={{ fontSize: "12px" }} />
-                  <Bar dataKey="intención" fill="#8B5CF6" name="Intención detectada" radius={[4, 4, 0, 0]} />
-                  <Bar dataKey="conversiones" fill="#10B981" name="Conversiones" radius={[4, 4, 0, 0]} />
+                  <Bar dataKey="intención" fill="#236092" name="Intención detectada" radius={[4, 4, 0, 0]} />
+                  <Bar dataKey="conversiones" fill="#38B82C" name="Conversiones" radius={[4, 4, 0, 0]} />
                 </BarChart>
               </ResponsiveContainer>
             </CardContent>

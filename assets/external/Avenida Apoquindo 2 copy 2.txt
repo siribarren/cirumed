@@ -1,0 +1,179 @@
+## Dolores y hallazgos de Cirumed que justifican una estrategia de apoyo de Phigital
+
+### Lectura ejecutiva
+
+Cirumed enfrenta una oportunidad clara de mejora comercial y operacional en su línea estética. El negocio tiene demanda, cartera activa, recurrencia de compra y capacidad de conversión, pero el proceso depende excesivamente de gestión manual por WhatsApp, criterio individual de Gonzalo, ingreso manual a HubSpot/SAP y tiempos de respuesta que limitan la captura de ventas.
+
+El hallazgo central es que Cirumed no requiere solo “un bot”, sino una estrategia de inteligencia aplicada al proceso comercial: calificación automática de leads, asistencia conversacional, trazabilidad, integración con HubSpot, automatización de backoffice y recuperación del conocimiento comercial acumulado en WhatsApp y correo.
+
+---
+
+## 1. Proceso comercial altamente manual
+
+Cirumed declara que el proceso actual de la línea estética es “total y absolutamente manual”, aun cuando están iniciando el uso de HubSpot para ordenar la gestión de clientes. Además, HubSpot se usará inicialmente solo en módulo Sales, sin integración actual con otros canales ni automatismos de entrada. 
+
+**Dolor:**
+La operación comercial depende de acciones manuales en cada etapa: contacto, respuesta, calificación, validación de intención, envío de información, recepción de receta, pago, datos de facturación, ingreso a HubSpot y posterior gestión en SAP.
+
+**Hallazgo:**
+Existe una brecha entre la adopción de CRM y la automatización real del proceso. HubSpot por sí solo no resolverá la fricción si no existe una capa que capture, estructure, califique e integre las interacciones comerciales desde WhatsApp.
+
+**Oportunidad para Phigital:**
+Diseñar una arquitectura de automatización comercial conectada a HubSpot, donde Phigital actúe como capa de inteligencia y orquestación entre WhatsApp, CRM, datos históricos y procesos internos.
+
+---
+
+## 2. Pérdida de ventas por baja capacidad de respuesta
+
+Gonzalo maneja una cartera de aproximadamente 700 a 1.000 clientes y ejecuta campañas por listas de difusión de WhatsApp, con bloques cercanos a 256 contactos. Cuando se activan campañas, el WhatsApp se satura con interesados, pero la capacidad humana de respuesta se vuelve el cuello de botella. 
+
+**Dolor:**
+Las ventas se enfrían porque Gonzalo llega tarde a responder. La oportunidad existe, pero se pierde por demora, saturación y falta de priorización automática.
+
+**Hallazgo:**
+El embudo comercial está limitado por la capacidad de conversación simultánea de una persona, no por la demanda del mercado. Cirumed tiene leads, pero no tiene capacidad operativa suficiente para capturarlos, filtrarlos y atenderlos en tiempo real.
+
+**Oportunidad para Phigital:**
+Implementar un sistema de calificación y priorización automática de conversaciones, capaz de identificar intención de compra, urgencia, cumplimiento de requisitos y probabilidad de cierre. Esto permitiría que Gonzalo atienda primero las oportunidades de mayor valor.
+
+---
+
+## 3. Falta de visibilidad sobre métricas comerciales críticas
+
+Virginia plantea explícitamente que hoy no tienen claridad sobre conversiones, políticas de contacto, CAC, duración del ciclo de venta, tiempo medio de cierre ni definición precisa del funnel. 
+
+**Dolor:**
+Cirumed opera con conocimiento práctico, pero sin métricas estructuradas para gestionar el canal. No está claro cuántos contactos responden, cuántos avanzan, en qué interacción se caen, cuánto demora una venta ni qué acciones generan mayor conversión.
+
+**Hallazgo:**
+El canal tiene potencial, pero no está instrumentado. Sin datos estructurados, la empresa no puede optimizar frecuencia de contacto, campañas, segmentación, priorización ni asignación de esfuerzo comercial.
+
+**Oportunidad para Phigital:**
+Construir un modelo de analítica comercial aplicada que permita medir funnel, tasa de respuesta, tasa de calificación, conversión, tiempos de atención, motivos de caída, recurrencia y potencial de recompra. La propuesta no debe quedarse en dashboards, sino traducir datos en recomendaciones y acciones automatizadas.
+
+---
+
+## 4. Necesidad de automatizar sin perder tono técnico, formal y humano
+
+Cirumed enfatiza que el rubro es médico-estético, por lo que las respuestas no pueden ser frías ni genéricas. La interacción debe ser cercana, formal y rigurosa, porque los compradores son médicos, odontólogos, enfermeros, profesionales de salud y Key Opinion Leaders del ámbito estético. 
+
+**Dolor:**
+Automatizar de forma simple puede dañar la experiencia comercial si el bot responde con lenguaje poco técnico, poco humano o inadecuado para un contexto clínico-estético.
+
+**Hallazgo:**
+La automatización debe ser consultiva, no transaccional. No basta con responder preguntas frecuentes; se requiere capturar el estilo, criterio y conocimiento comercial de Gonzalo.
+
+**Oportunidad para Phigital:**
+Diseñar un asistente conversacional entrenado con conversaciones reales, tono comercial de Cirumed, criterios técnicos de producto, reglas regulatorias y límites de automatización. El objetivo sería aumentar capacidad sin deteriorar confianza ni calidad de atención.
+
+---
+
+## 5. Producto principal con restricciones regulatorias y logísticas
+
+Meditoxin es el producto estrella, pero requiere receta médica válida y está sujeto a vigilancia farmacológica. La venta exige validar receta, cantidades, timbre, compuesto activo y nombre del producto. Además, existen cortes horarios y condiciones logísticas rigurosas. 
+
+**Dolor:**
+El proceso de venta no es simplemente “cotizar y cerrar”. Hay validaciones regulatorias, condiciones logísticas y requisitos documentales que consumen tiempo y generan caída de ventas.
+
+**Hallazgo:**
+El proceso requiere automatización asistida con reglas de negocio. Algunas interacciones pueden automatizarse, pero otras deben escalarse a revisión humana por criticidad normativa o comercial.
+
+**Oportunidad para Phigital:**
+Implementar flujos inteligentes de prevalidación: detección de producto con receta, solicitud guiada de documentos, checklist de receta, identificación de casos no viables, derivación a ejecutivo y trazabilidad del cumplimiento.
+
+---
+
+## 6. Riesgo de perder venta cruzada y conocimiento comercial
+
+Virginia destaca que Gonzalo no solo vende Meditoxin; también logra ampliar la conversación hacia otros productos del portafolio que no requieren receta. El riesgo de una automatización mal diseñada es reducir el proceso a dos o tres preguntas y terminar vendiendo solo toxina. 
+
+**Dolor:**
+Una automatización básica podría simplificar en exceso la venta y eliminar la capacidad consultiva de ofrecer portafolio ampliado.
+
+**Hallazgo:**
+El valor comercial de Gonzalo no está solo en cerrar pedidos, sino en interpretar al cliente, detectar potencial, ampliar la venta y desarrollar cuentas.
+
+**Oportunidad para Phigital:**
+Crear un modelo de recomendación comercial que sugiera productos complementarios según historial de compra, perfil del cliente, frecuencia, ticket promedio y conversación actual. Esto permitiría automatizar sin perder venta consultiva.
+
+---
+
+## 7. Información histórica no estructurada pero de alto valor
+
+Durante la reunión se identifica que existen años de correos y conversaciones de WhatsApp que contienen conocimiento comercial relevante. Ese material permitiría entrenar una solución más inteligente, con contexto, historia, tono y criterios reales de cierre. 
+
+**Dolor:**
+El conocimiento comercial está disperso en WhatsApp, correos y experiencia individual. No está sistematizado ni disponible para escalar el proceso.
+
+**Hallazgo:**
+Cirumed posee un activo de datos no explotado: conversaciones reales de venta, objeciones, cierres, preguntas frecuentes, requisitos y señales de intención de compra.
+
+**Oportunidad para Phigital:**
+Realizar un levantamiento de conversaciones históricas, clasificación de patrones, construcción de una base de conocimiento y entrenamiento de un asistente comercial que replique buenas prácticas de Gonzalo.
+
+---
+
+## 8. Falta de continuidad fuera de horario
+
+Virginia menciona que Gonzalo responde incluso fines de semana, aunque la empresa no atiende formalmente en ese horario. La preocupación es mantener al cliente atendido, aunque no necesariamente se procese la venta inmediatamente. 
+
+**Dolor:**
+La continuidad de atención depende de esfuerzo personal fuera de horario, lo que no es sostenible ni escalable.
+
+**Hallazgo:**
+Hay una necesidad de cobertura comercial básica 24/7 o fuera de horario, especialmente para contener interés, responder condiciones generales y dejar encaminado el siguiente paso.
+
+**Oportunidad para Phigital:**
+Diseñar un asistente de atención fuera de horario que responda, clasifique, solicite antecedentes básicos y deje el lead preparado para atención humana en horario hábil.
+
+---
+
+## 9. Trazabilidad y control operativo insuficiente
+
+Se detecta que las conversaciones se gestionan en teléfonos de trabajo con WhatsApp, sin una plataforma centralizada. Incluso se menciona que si se pierde el teléfono, se pierden conversaciones y contactos. Tampoco existe una estructura formal de supervisión sobre las conversaciones. 
+
+**Dolor:**
+La empresa no tiene control robusto sobre historial, supervisión, respaldo, calidad conversacional ni continuidad de clientes.
+
+**Hallazgo:**
+El canal más crítico de venta está operando como canal personal-operativo, no como activo comercial corporativo.
+
+**Oportunidad para Phigital:**
+Migrar hacia una gestión profesionalizada de WhatsApp Business/API o plataforma omnicanal, con trazabilidad, respaldo, asignación, métricas, auditoría y conexión con HubSpot.
+
+---
+
+## 10. Fricción entre cierre comercial y backoffice
+
+Después del cierre, Gonzalo debe gestionar pago, receta, datos de facturación e ingreso del pedido. El flujo esperado incluye WhatsApp, HubSpot, nota de venta, SAP, facturación y validación financiera. Parte de esa carga sigue siendo manual. 
+
+**Dolor:**
+El ejecutivo mezcla venta, administración y backoffice. Esto reduce su tiempo disponible para conversar con nuevos interesados y cerrar más ventas.
+
+**Hallazgo:**
+La eficiencia no solo está en el front comercial; también existe una oportunidad importante en automatizar el procesamiento posterior al cierre.
+
+**Oportunidad para Phigital:**
+Automatizar tareas repetitivas postventa: captura de datos, estructuración de pedido, checklist documental, preparación de registro para HubSpot/SAP y derivación a backoffice.
+
+---
+
+# Síntesis estratégica para Phigital
+
+Los dolores de Cirumed justifican una estrategia de apoyo basada en cuatro líneas:
+
+**1. Inteligencia comercial conversacional**
+Automatización de primeras respuestas, calificación de intención, priorización de leads y recomendación de próximos pasos.
+
+**2. Recuperación y estructuración del conocimiento comercial**
+Procesamiento de WhatsApp, correos y conversaciones históricas para construir una base de conocimiento entrenada con el criterio real de Gonzalo.
+
+**3. Orquestación operativa e integración**
+Conexión entre WhatsApp, HubSpot, SAP y backoffice para reducir manualidad, mejorar trazabilidad y acelerar el ciclo de venta.
+
+**4. Analítica accionable del funnel**
+Medición de conversión, tiempos de respuesta, motivos de caída, frecuencia de compra, ticket promedio, recurrencia y oportunidades de venta cruzada.
+
+## Frase ejecutiva sugerida
+
+Cirumed no necesita únicamente automatizar respuestas; necesita convertir su conocimiento comercial disperso en un sistema inteligente de gestión, calificación y priorización de oportunidades, capaz de escalar la venta consultiva sin perder el tono técnico, formal y cercano que exige el mercado médico-estético.

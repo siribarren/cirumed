@@ -6,12 +6,10 @@ import {
   Brain,
   BarChart3,
   Sparkles,
-  Bell,
-  Settings,
-  Search
+  Building2,
+  Target
 } from "lucide-react";
-import { Button } from "./ui/button";
-import { Input } from "./ui/input";
+import logoCirumed from "@/assets/logo_cirumed.png";
 
 export function DashboardLayout() {
   const location = useLocation();
@@ -22,6 +20,9 @@ export function DashboardLayout() {
     { name: "Pipeline", href: "/pipeline", icon: GitBranch },
     { name: "Knowledge Base", href: "/knowledge", icon: Brain },
     { name: "Analytics", href: "/analytics", icon: BarChart3 },
+    { name: "Automatizaciones", href: "/automations", icon: Sparkles },
+    { name: "Integraciones", href: "/integrations", icon: Building2 },
+    { name: "Campañas", href: "/campaigns", icon: Target },
   ];
 
   const isActive = (href: string) => {
@@ -29,14 +30,16 @@ export function DashboardLayout() {
     return location.pathname.startsWith(href);
   };
 
+  const showConversationsHero = location.pathname.startsWith("/conversations");
+
   return (
     <div className="flex h-screen bg-slate-50">
       {/* Sidebar */}
       <div className="w-64 bg-white border-r border-slate-200 flex flex-col">
         {/* Logo */}
         <div className="h-16 flex items-center px-6 border-b border-slate-200">
-          <Sparkles className="w-6 h-6 text-blue-600" />
-          <span className="ml-2 font-semibold text-slate-900">Cirumed AI</span>
+          <img src={logoCirumed} alt="Cirumed logo" className="w-8 h-8 object-contain" />
+          <span className="ml-2 font-semibold text-slate-900">Signal</span>
         </div>
 
         {/* Navigation */}
@@ -77,28 +80,12 @@ export function DashboardLayout() {
 
       {/* Main Content */}
       <div className="flex-1 flex flex-col overflow-hidden">
-        {/* Top Bar */}
-        <div className="h-16 bg-white border-b border-slate-200 flex items-center justify-between px-6">
-          <div className="flex-1 max-w-xl">
-            <div className="relative">
-              <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" />
-              <Input
-                type="text"
-                placeholder="Buscar leads, conversaciones, clientes..."
-                className="w-full pl-10"
-              />
-            </div>
+        {showConversationsHero && (
+          <div className="bg-white border-b border-slate-200 px-6 py-8">
+            <h1 className="text-3xl font-semibold text-slate-900">Conversaciones</h1>
+            <p className="mt-2 text-slate-600">Inteligencia comercial con Next Best Actions (NBA)</p>
           </div>
-          <div className="flex items-center gap-4">
-            <Button variant="ghost" size="icon" className="relative">
-              <Bell className="w-5 h-5" />
-              <span className="absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full"></span>
-            </Button>
-            <Button variant="ghost" size="icon">
-              <Settings className="w-5 h-5" />
-            </Button>
-          </div>
-        </div>
+        )}
 
         {/* Page Content */}
         <div className="flex-1 overflow-auto">

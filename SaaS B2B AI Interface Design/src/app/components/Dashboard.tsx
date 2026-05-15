@@ -1,4 +1,3 @@
-import { useMemo } from "react";
 import {
   TrendingUp,
   TrendingDown,
@@ -15,7 +14,6 @@ import {
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
-import projectReadme from "../../../README.md?raw";
 
 export function Dashboard() {
   const kpis = [
@@ -70,71 +68,52 @@ export function Dashboard() {
     { metric: "Oportunidades en Riesgo", value: "7", target: "10", status: "good" },
   ];
 
-  const projectSummary = useMemo(() => {
-    const paragraphs = projectReadme
-      .split(/\r?\n\r?\n/)
-      .map((paragraph) => paragraph.trim())
-      .filter(Boolean);
-
-    return paragraphs[0] ?? "";
-  }, []);
-
   return (
     <div className="p-8 space-y-8">
       {/* Header */}
       <div>
         <h1 className="text-3xl font-semibold text-slate-900">Dashboard Ejecutivo</h1>
-        <p className="mt-1 text-slate-600">Inteligencia comercial en tiempo real</p>
+        <p className="mt-1 text-slate-600">Tablero de gestión comercial conversacional</p>
       </div>
 
-      <Card className="border-slate-200 bg-slate-50">
-        <CardHeader>
-          <CardTitle>Resumen del proyecto</CardTitle>
-        </CardHeader>
-        <CardContent className="space-y-4">
-          <p className="text-slate-600">{projectSummary}</p>
-          <div className="flex flex-wrap gap-2">
-            <Badge variant="secondary">SaaS B2B</Badge>
-            <Badge variant="secondary">AI Interface</Badge>
-            <Badge variant="secondary">Figma bundle</Badge>
+      {/* KPIs */}
+      <Card className="bg-gradient-to-br from-blue-50 to-purple-50 border-blue-200">
+        <CardContent className="p-6">
+          <div className="grid grid-cols-4 gap-6">
+            {kpis.map((kpi) => {
+              const Icon = kpi.icon;
+              const colors = {
+                blue: "bg-blue-50 text-blue-600",
+                green: "bg-green-50 text-green-600",
+                purple: "bg-purple-50 text-purple-600",
+                orange: "bg-orange-50 text-orange-600",
+              };
+              return (
+                <Card key={kpi.label}>
+                  <CardContent className="p-6">
+                    <div className="flex items-start justify-between">
+                      <div className={`p-2 rounded-lg ${colors[kpi.color as keyof typeof colors]}`}>
+                        <Icon className="w-5 h-5" />
+                      </div>
+                      <div className={`flex items-center gap-1 text-sm ${
+                        kpi.trend === "up" && kpi.label.includes("Tiempo") ? "text-green-600" :
+                        kpi.trend === "up" ? "text-green-600" : "text-red-600"
+                      }`}>
+                        {kpi.trend === "up" ? <TrendingUp className="w-4 h-4" /> : <TrendingDown className="w-4 h-4" />}
+                        {kpi.change}
+                      </div>
+                    </div>
+                    <div className="mt-4">
+                      <div className="text-3xl font-semibold text-slate-900">{kpi.value}</div>
+                      <div className="mt-1 text-sm text-slate-600">{kpi.label}</div>
+                    </div>
+                  </CardContent>
+                </Card>
+              );
+            })}
           </div>
         </CardContent>
       </Card>
-
-      {/* KPIs */}
-      <div className="grid grid-cols-4 gap-6">
-        {kpis.map((kpi) => {
-          const Icon = kpi.icon;
-          const colors = {
-            blue: "bg-blue-50 text-blue-600",
-            green: "bg-green-50 text-green-600",
-            purple: "bg-purple-50 text-purple-600",
-            orange: "bg-orange-50 text-orange-600",
-          };
-          return (
-            <Card key={kpi.label}>
-              <CardContent className="p-6">
-                <div className="flex items-start justify-between">
-                  <div className={`p-2 rounded-lg ${colors[kpi.color as keyof typeof colors]}`}>
-                    <Icon className="w-5 h-5" />
-                  </div>
-                  <div className={`flex items-center gap-1 text-sm ${
-                    kpi.trend === "up" && kpi.label.includes("Tiempo") ? "text-green-600" :
-                    kpi.trend === "up" ? "text-green-600" : "text-red-600"
-                  }`}>
-                    {kpi.trend === "up" ? <TrendingUp className="w-4 h-4" /> : <TrendingDown className="w-4 h-4" />}
-                    {kpi.change}
-                  </div>
-                </div>
-                <div className="mt-4">
-                  <div className="text-3xl font-semibold text-slate-900">{kpi.value}</div>
-                  <div className="mt-1 text-sm text-slate-600">{kpi.label}</div>
-                </div>
-              </CardContent>
-            </Card>
-          );
-        })}
-      </div>
 
       {/* AI Recommendations */}
       <Card className="bg-gradient-to-br from-blue-50 to-purple-50 border-blue-200">

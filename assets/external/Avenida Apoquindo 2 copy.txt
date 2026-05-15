@@ -1,0 +1,47 @@
+No fue necesario procesar el MP3; las tres transcripciones permiten reconstruir la reunión con suficiente consistencia.
+
+## Resumen ejecutivo de la reunión
+
+La reunión tuvo como objetivo levantar el proceso comercial actual de Cirumed para la línea estética, entender sus principales fricciones operativas y evaluar oportunidades de automatización, especialmente en las primeras interacciones comerciales por WhatsApp. Participaron Ramiro Navarro y Simón Iribarren por el equipo consultor, y Gonzalo Aedo junto a Virginia Buzeta por Cirumed.
+
+Cirumed explicó que la línea estética está en proceso de reestructuración y que Gonzalo asumirá una responsabilidad relevante sobre una cartera de clientes B2B. El segmento de clientes más pequeños representa aproximadamente entre 20% y 25% de la venta de la línea estética, pero el proceso comercial sigue siendo altamente manual. La empresa está implementando HubSpot, inicialmente en modalidad Sales, para ordenar la gestión comercial, aunque hoy no existe integración automática con los canales de entrada ni con otros sistemas. 
+
+El principal problema identificado es que Gonzalo maneja una cartera de aproximadamente 700 a 1.000 clientes y realiza campañas por listas de difusión de WhatsApp, con bloques cercanos a 256 contactos. Cuando se lanza una campaña, recibe muchas conversaciones simultáneas, pero su capacidad humana limita la velocidad de respuesta. Esto provoca pérdida de oportunidades porque algunos clientes se enfrían si no reciben respuesta rápida. Gonzalo estima una conversión aproximada de 20% sobre la cartera contactada, pero considera que podría mejorar con mejor atención y automatización.  
+
+El producto principal es Meditoxin, toxina botulínica, que exige un proceso regulado: se vende bajo vigilancia farmacológica y requiere receta médica válida, con timbre, cantidades, compuesto activo y nombre del producto. Además, el equipo quiere evitar que una futura automatización reduzca la venta solamente a Meditoxin, porque Gonzalo también genera ventas relevantes ofreciendo portafolio ampliado, incluyendo productos que no requieren receta médica como ácido hialurónico, cremas y bioestimuladores. 
+
+La expectativa de Virginia es identificar hasta dónde se puede automatizar el proceso inicial de compra sin perder naturalidad, cercanía ni rigurosidad técnica. El objetivo no es reemplazar completamente la venta consultiva, sino calificar mejor los leads, detectar intención real de compra y derivar a Gonzalo solo las oportunidades con mayor probabilidad de cierre. La automatización debería mantener un trato formal, cercano y adecuado al contexto médico-estético. 
+
+También se discutió que el flujo actual de cierre tiene varios pasos manuales: conversación por WhatsApp, confirmación de interés, envío de link de pago Webpay, recepción de comprobante, recepción de receta, recepción de datos de facturación, ingreso a HubSpot —cuando esté operativo— y posterior generación de pedido/facturación en SAP Business One. Hoy Gonzalo aún ingresa parte de este flujo directamente en SAP, y declara que una parte relevante de su tiempo se pierde en la generación del pedido y la administración posterior al cierre. 
+
+Desde la perspectiva del equipo consultor, la oportunidad está en construir una solución por etapas. Primero, levantar y procesar conocimiento histórico desde WhatsApp, correos y conversaciones reales de cierre. Luego, convertir ese conocimiento en reglas, criterios de calificación, respuestas asistidas o automatizadas, y eventualmente un bot/agente conectado a WhatsApp Business y HubSpot. La lógica propuesta no es solo tener una herramienta de canal, sino una capa de inteligencia que aprenda del estilo, conocimiento técnico y experiencia comercial de Gonzalo. 
+
+Se mencionó además la posibilidad futura de explorar TikTok Live como canal alternativo de generación de leads para B2C o nuevos segmentos. El equipo consultor compartió experiencia previa en social selling, donde se capturan comentarios en vivo, se clasifican por intención, se asigna puntaje y se derivan leads a backoffice para contacto posterior. La idea no se planteó como reemplazo del canal actual, sino como una posible extensión futura del funnel comercial.  
+
+## Principales dolores detectados
+
+El dolor central es la dependencia excesiva de Gonzalo como punto único de atención, calificación, cierre y procesamiento comercial. La venta depende de su capacidad para responder rápido, priorizar conversaciones, validar requisitos, explicar condiciones logísticas y registrar pedidos.
+
+También hay una pérdida de trazabilidad. Las conversaciones ocurren principalmente en teléfonos corporativos con WhatsApp común, sin una plataforma centralizada de supervisión, respaldo o control. Incluso se menciona que si se pierde un teléfono, se pierden conversaciones y contactos históricos. 
+
+Otro dolor relevante es la logística. Una de las principales razones de caída de ventas es el horario de corte para despacho, especialmente en Meditoxin, porque muchos profesionales necesitan el producto con urgencia para pacientes ya agendados. El stock no parece ser el problema principal; la fricción está en disponibilidad, despacho, horarios y dependencia de farmacia.
+
+## Oportunidades identificadas
+
+La primera oportunidad es automatizar la calificación inicial del lead: detectar si el cliente tiene intención real de compra, si cumple requisitos mínimos, si pide cantidades compatibles con la oferta, si necesita receta y si está dentro de una ventana logística viable.
+
+La segunda oportunidad es implementar respuestas asistidas o automatizadas en WhatsApp para preguntas frecuentes, condiciones de compra, requisitos de receta, medios de pago, boleta/factura, cortes horarios y estado básico del proceso.
+
+La tercera oportunidad es integrar el canal conversacional con HubSpot, de modo que las oportunidades calificadas lleguen como leads u oportunidades claras para Gonzalo, evitando doble digitación y reduciendo manualidad.
+
+La cuarta oportunidad es construir una base de conocimiento comercial desde conversaciones históricas. Esto permitiría replicar el criterio de Gonzalo: cómo identifica clientes calientes, cómo ofrece portafolio adicional, cómo descarta leads poco probables y cómo mantiene el tono formal/técnico que exige el rubro.
+
+## Acuerdos y próximos pasos
+
+El equipo consultor preparará un “enfoque” o documento inicial con el problema detectado, oportunidades, posible solución, etapas, información requerida, alternativas tecnológicas y objetivos esperados. Se aclaró que ese primer enfoque no necesariamente incluirá presupuesto definitivo, porque el alcance dependerá de decisiones posteriores sobre integración, canal, nube/local, HubSpot, WhatsApp Business y nivel de automatización. 
+
+Cirumed, principalmente Gonzalo, quedó con el compromiso de buscar y compartir ejemplos de conversaciones de WhatsApp de cierre, conversaciones previas al cierre y algunos correos comerciales. Se mencionó como referencia un número acotado de ejemplos, alrededor de 35, para permitir análisis, clasificación y entrenamiento inicial. También se planteó que probablemente será necesario firmar un NDA o acuerdo de confidencialidad antes de compartir información sensible de clientes. 
+
+## Conclusión
+
+La reunión confirma una oportunidad concreta para Cirumed: profesionalizar y automatizar el proceso conversacional de venta B2B en la línea estética, partiendo por WhatsApp y HubSpot. El mayor valor no está solo en responder automáticamente, sino en capturar el conocimiento comercial de Gonzalo, convertirlo en criterios de calificación y liberar tiempo humano para las oportunidades de mayor probabilidad de cierre. El caso tiene potencial de impacto directo en conversión, velocidad de respuesta, trazabilidad, continuidad fuera de horario y escalabilidad comercial.

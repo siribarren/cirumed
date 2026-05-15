@@ -1,0 +1,110 @@
+{
+  "black": {
+    "value": "#0C0C0C",
+    "name": "Black"
+  },
+  "dark-slate-gray": {
+    "value": "#212529",
+    "name": "Dark Slate Gray"
+  },
+  "teal": {
+    "value": "#236092",
+    "name": "Teal"
+  },
+  "dark-slate-gray-1": {
+    "value": "#333333",
+    "name": "Dark Slate Gray"
+  },
+  "lime-green": {
+    "value": "#38B82C",
+    "name": "Lime Green"
+  },
+  "royal-blue": {
+    "value": "#457DEB",
+    "name": "Royal Blue"
+  },
+  "maroon": {
+    "value": "#521919",
+    "name": "Maroon"
+  },
+  "dim-gray": {
+    "value": "#575757",
+    "name": "Dim Gray"
+  },
+  "dim-gray-1": {
+    "value": "#666666",
+    "name": "Dim Gray"
+  },
+  "gray": {
+    "value": "#777777",
+    "name": "Gray"
+  },
+  "gray-1": {
+    "value": "#808080",
+    "name": "Gray"
+  },
+  "dark-gray": {
+    "value": "#A0A0A0",
+    "name": "Dark Gray"
+  },
+  "dark-gray-1": {
+    "value": "#A1A1A1",
+    "name": "Dark Gray"
+  },
+  "yellow-green": {
+    "value": "#A6CC0F",
+    "name": "Yellow Green"
+  },
+  "silver": {
+    "value": "#C2C2C2",
+    "name": "Silver"
+  },
+  "indian-red": {
+    "value": "#CA5058",
+    "name": "Indian Red"
+  },
+  "crimson": {
+    "value": "#D23535",
+    "name": "Crimson"
+  },
+  "gainsboro": {
+    "value": "#DAE1EB",
+    "name": "Gainsboro"
+  },
+  "crimson-1": {
+    "value": "#DD3333",
+    "name": "Crimson"
+  },
+  "gainsboro-1": {
+    "value": "#DEE2E6",
+    "name": "Gainsboro"
+  },
+  "lavender": {
+    "value": "#DFEAF2",
+    "name": "Lavender"
+  },
+  "gainsboro-2": {
+    "value": "#E0E0E0",
+    "name": "Gainsboro"
+  },
+  "gainsboro-3": {
+    "value": "#E3E3E3",
+    "name": "Gainsboro"
+  },
+  "goldenrod": {
+    "value": "#EBA53D",
+    "name": "Goldenrod"
+  },
+  "white-smoke": {
+    "value": "#F0F0F0",
+    "name": "White Smoke"
+  },
+  "white-smoke-1": {
+    "value": "#F3F3F3",
+    "name": "White Smoke"
+  },
+  "white-smoke-2": {
+    "value": "#F8F8F8",
+    "name": "White Smoke"
+  }
+}

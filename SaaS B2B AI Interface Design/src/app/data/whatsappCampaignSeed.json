@@ -1,0 +1,155 @@
+{
+  "clients": [
+    {
+      "id": "CL-1001",
+      "name": "Maria Gonzalez",
+      "clinic": "Clinica Belleza",
+      "phone": "+56966112211",
+      "city": "Santiago",
+      "productInterest": "Botox 100U"
+    },
+    {
+      "id": "CL-1002",
+      "name": "Carlos Ruiz",
+      "clinic": "Estetica Premium",
+      "phone": "+56966112212",
+      "city": "Vina del Mar",
+      "productInterest": "Acido Hialuronico"
+    },
+    {
+      "id": "CL-1003",
+      "name": "Ana Martinez",
+      "clinic": "Centro Medico Sur",
+      "phone": "+56966112213",
+      "city": "Concepcion",
+      "productInterest": "Relleno Dermico"
+    },
+    {
+      "id": "CL-1004",
+      "name": "Luis Fernandez",
+      "clinic": "Spa Wellness",
+      "phone": "+56966112214",
+      "city": "Santiago",
+      "productInterest": "Mesoterapia"
+    },
+    {
+      "id": "CL-1005",
+      "name": "Daniela Silva",
+      "clinic": "Clinica Armonia",
+      "phone": "+56966112215",
+      "city": "La Serena",
+      "productInterest": "Botox 100U"
+    },
+    {
+      "id": "CL-1006",
+      "name": "Sebastian Paredes",
+      "clinic": "Dermacare Norte",
+      "phone": "+56966112216",
+      "city": "Antofagasta",
+      "productInterest": "Acido Hialuronico"
+    },
+    {
+      "id": "CL-1007",
+      "name": "Valentina Rojas",
+      "clinic": "Vida Estetica",
+      "phone": "+56966112217",
+      "city": "Santiago",
+      "productInterest": "Mesoterapia"
+    },
+    {
+      "id": "CL-1008",
+      "name": "Matias Contreras",
+      "clinic": "Clinica Nova Skin",
+      "phone": "+56966112218",
+      "city": "Rancagua",
+      "productInterest": "Botox 100U"
+    },
+    {
+      "id": "CL-1009",
+      "name": "Javiera Soto",
+      "clinic": "Estetica One",
+      "phone": "+56966112219",
+      "city": "Temuco",
+      "productInterest": "Relleno Dermico"
+    },
+    {
+      "id": "CL-1010",
+      "name": "Pablo Mena",
+      "clinic": "Clinica Andes",
+      "phone": "+56966112220",
+      "city": "Santiago",
+      "productInterest": "Botox 100U"
+    },
+    {
+      "id": "CL-1011",
+      "name": "Camila Torres",
+      "clinic": "Med Center Pro",
+      "phone": "+56966112221",
+      "city": "Valdivia",
+      "productInterest": "Acido Hialuronico"
+    },
+    {
+      "id": "CL-1012",
+      "name": "Nicolas Vega",
+      "clinic": "Skin Hub",
+      "phone": "+56966112222",
+      "city": "Santiago",
+      "productInterest": "Botox 100U"
+    }
+  ],
+  "segments": [
+    {
+      "id": "seg-high-intent",
+      "name": "Leads alta intencion",
+      "description": "Contactos con mayor probabilidad de cierre en los proximos 7 dias.",
+      "criteria": [
+        "Ultima conversacion en menos de 5 dias",
+        "Lead score mayor a 85",
+        "Solicitaron cotizacion reciente"
+      ],
+      "clientIds": ["CL-1001", "CL-1003", "CL-1005", "CL-1010", "CL-1012"]
+    },
+    {
+      "id": "seg-reactivation",
+      "name": "Reactivacion de cartera",
+      "description": "Clientes inactivos para reactivar compra con incentivo comercial.",
+      "criteria": [
+        "Sin compra durante 60 dias",
+        "Historial de al menos 2 pedidos",
+        "Acepta contacto por WhatsApp"
+      ],
+      "clientIds": ["CL-1002", "CL-1004", "CL-1006", "CL-1009", "CL-1011"]
+    },
+    {
+      "id": "seg-cross-sell",
+      "name": "Cross-sell post Botox",
+      "description": "Clientes de Botox con oportunidad de venta complementaria.",
+      "criteria": [
+        "Compraron Botox en el ultimo trimestre",
+        "No compraron acido hialuronico",
+        "Frecuencia de compra mensual"
+      ],
+      "clientIds": ["CL-1001", "CL-1005", "CL-1008", "CL-1010", "CL-1012"]
+    }
+  ],
+  "templates": [
+    {
+      "id": "tpl-volume-offer",
+      "name": "Oferta volumen semanal",
+      "objective": "Aumentar ticket promedio con propuesta por volumen.",
+      "body": "Hola {{nombre}}, soy Laura de Cirumed Signal. Tenemos una propuesta especial para {{clinica}} en {{producto_interes}} con stock inmediato y bonificacion por volumen. Si te interesa, responde QUIERO y te envio el detalle hoy mismo."
+    },
+    {
+      "id": "tpl-reactivation",
+      "name": "Reactivacion de cartera",
+      "objective": "Recuperar clientes inactivos con una promocion de retorno.",
+      "body": "Hola {{nombre}}, te escribo de Cirumed Signal porque abrimos cupos de recompra para {{clinica}} en {{ciudad}}. Esta semana activamos un beneficio exclusivo de reactivacion. Responde ACTIVAR y te comparto la propuesta."
+    },
+    {
+      "id": "tpl-cross-sell",
+      "name": "Cross-sell complementario",
+      "objective": "Impulsar venta cruzada en clientes actuales de Botox.",
+      "body": "Hola {{nombre}}, gracias por confiar en Cirumed. Vimos alta rotacion de Botox en {{clinica}} y queremos ofrecerte una combinacion recomendada con {{producto_interes}} para mejorar margen y resultados clinicos. ¿Te envio la simulacion de ahorro?"
+    }
+  ]
+}
