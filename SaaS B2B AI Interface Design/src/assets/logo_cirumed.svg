@@ -1,0 +1,11 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cirumed logo">
+  <defs>
+    <linearGradient id="cirumed-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#236092" />
+      <stop offset="100%" stop-color="#457DEB" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#FFFFFF" stroke="#D1D5DB" stroke-width="2" />
+  <circle cx="32" cy="32" r="18" fill="url(#cirumed-gradient)" />
+  <path d="M40 22.2C37.9 20.7 35.3 20 32.5 20C25.8 20 20.5 25 20.5 31.8C20.5 38.8 25.9 44 32.8 44C35.6 44 38.2 43.2 40.3 41.6L37.2 37.9C36.1 38.7 34.6 39.2 33 39.2C29.1 39.2 26 36 26 31.9C26 27.9 29 24.8 32.9 24.8C34.5 24.8 35.9 25.3 37.1 26.2L40 22.2Z" fill="#FFFFFF" />
+</svg>

@@ -9,7 +9,7 @@ import {
   Building2,
   Target
 } from "lucide-react";
-import logoCirumed from "@/assets/logo_cirumed.png";
+import logoCirumed from "@/assets/logo_cirumed.svg";
 
 export function DashboardLayout() {
   const location = useLocation();

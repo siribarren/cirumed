@@ -31,7 +31,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "./ui/dialog";
-import logoCirumed from "@/assets/logo_cirumed.png";
+import logoCirumed from "@/assets/logo_cirumed.svg";
 
 type FlowBlockId =
   | "trigger"
